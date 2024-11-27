@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="main.js"></script>
+</head>
+<body>
+
+  <nav>
+    <div class="nav__header">
+      <div class="nav__logo">
+        <a href="./index.html" class="logo">Handloom<span>House</span></a>
+      </div>
+    </div>
+    <ul class="nav__links" id="nav-links">
+      <li><a href="./index.html">Home</a></li>
+      <li><a href="./index.html#about">About</a></li>
+      <li><a href="./index.html#handlooms">Categories</a></li>
+      <li><a href="./index.html#client">Reviews</a></li>
+      <li><button class="btn"><a href="./form.html">Register</a></button></li>
+    </ul>
+  </nav>
+
+  <header class="section__container header__container header_c" id="home">
+  </header>
+  
+  <div class="form-container r-align">
+    <h1>Register Now!</h1>
+    <form onsubmit="displayFormData(event)">
+      <label for="name">Name:<span>*</span</label>
+      <input type="text" id="name" name="name" required><br>
+
+      <label for="email">Email:<span>*</span</label>
+      <input type="email" id="email" name="email" required><br>
+
+      <label for="phone">Phone Number:<span>*</span</label>
+      <input type="number" id="phone" name="phone" required><br>
+
+      <label for="category">Enter your saree Category:<span>*</span</label>
+      <input type="text" id="category" name="category" required><br>
+
+      <label for="social-link">Social Media Link (optional):</label>
+      <input type="url" id="social-link" name="social-link" placeholder="https://yourlink.com"><br>
+
+      <label for="file">Profile Image:<span>*</span</label>
+      <input type="file" id="file" name="file"><br>
+
+      <button class="btn" type="submit">Submit</button>
+  </form>
+  </div>
+
+  <footer class="footer">
+    <div class="section__container footer__container">
+      <div class="footer__col">
+        <div class="footer__logo">
+          <a href="index.html" class="logo">Handloom<span>House</span></a>
+        </div>
+        <p>
+          Our platform is designed to help the vendors of handlooms to sell their products with out any stakeholders in between for their profits and also for the customers to buy productors directly from the vendors
+        </p>
+      </div>
+      <div class="footer__col">
+        <h4>Quick Links</h4>
+        <ul class="footer__links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="./index.html#about">About</a></li>
+      <li><a href="./index.html#handlooms">Categories</a></li>
+      <li><a href="./index.html#client">Reviews</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4>Contact Us</h4>
+        <ul class="footer__links">
+          <li>
+            <a href="tel:9876543210">
+              <span><i class="ri-phone-fill"></i></span> +91 9876543210
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-google"></a>
+        <a href="#" class="fa fa-linkedin"></a>
+        <a href="#" class="fa fa-youtube"></a>
+      </div>
+    </div>
+    <div class="footer__bar">
+      Copyright © 2024 Handloom House. All rights reserved.
+    </div>
+  </footer>
+</body>
+</html>
