@@ -171,7 +171,7 @@ nav {
   position: relative;
   isolation: isolate;
   overflow: hidden;
-  background-image: url("assets/Backgroundimage2.jpg");
+  background-image: url("Backgroundimage2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-color: rgba(65, 73, 89, .65);
@@ -181,7 +181,7 @@ nav {
   position: relative;
   isolation: isolate;
   overflow: hidden;
-  background-image: url("assets/kanjeepurambanner.jpg");
+  background-image: url("kanjeepurambanner.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-color: rgba(65, 73, 89, .65);
@@ -190,7 +190,7 @@ nav {
   position: relative;
   isolation: isolate;
   overflow: hidden;
-  background-image: url("assets/chenderibanner.jpg");
+  background-image: url("chenderibanner.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-color: rgba(65, 73, 89, .65);
@@ -199,7 +199,7 @@ nav {
   position: relative;
   isolation: isolate;
   overflow: hidden;
-  background-image: url("assets/chenderibanner.jpg");
+  background-image: url("chenderibanner.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-color: rgba(65, 73, 89, .65);
@@ -208,7 +208,7 @@ nav {
   position: relative;
   isolation: isolate;
   overflow: hidden;
-  background-image: url("assets/banaraibanner.jpg");
+  background-image: url("banaraibanner.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-color: rgba(65, 73, 89, .65);
